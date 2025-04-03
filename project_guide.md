@@ -132,7 +132,7 @@ Both models are optimized using grid search with cross-validation to find the be
 To launch the web interface:
 
 ```bash
-streamlit run src/web_app.py
+streamlit run src/web_interface.py
 ```
 
 This will start a local Streamlit server (typically at http://localhost:8501) where you can interact with the StrokeShield system.
@@ -224,9 +224,3 @@ Potential improvements to consider:
 5. **Explainability**: Add SHAP values or other explainability techniques
 6. **Mobile App**: Develop a mobile application for healthcare professionals
 7. **API Integration**: Create an API for integration with hospital systems
-
----
-
-This project fulfills the requirements mentioned in your resume:
-- ✅ Developed a robust Stroke Prediction System using Python and ML techniques, achieving 90% accuracy
-- ✅ Engineered and fine-tuned Random Forest and Logistic Regression models on a dataset of 5,000+ patients
